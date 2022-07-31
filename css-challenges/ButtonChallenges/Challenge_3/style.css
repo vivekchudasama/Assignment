@@ -1,0 +1,21 @@
+.btn {
+    background: rgb(12,32,82);
+    background: linear-gradient(0deg, rgba(12,32,82,1) 0%, rgba(33,70,125,1) 70%); 
+    color: #FFFFFF;
+    padding: 20px 40px;
+    border-style: none;
+    border-radius: 30px;
+
+    box-shadow: 0 5px 20px 0 black;
+}
+
+.btn-text-one {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Josefin Sans";
+    text-transform: uppercase;
+}
+
+.btn-text-two {
+    display:none;
+}

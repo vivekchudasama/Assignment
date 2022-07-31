@@ -1,0 +1,32 @@
+.container {
+    margin: 50vh 40vw;
+    /* this is to align the button properly */
+}
+
+.btn {
+    background-color: #2998F3;
+    text-decoration: none;
+    color: #FCFCFE;
+    padding: 15px 30px;
+    border-radius: 4px;
+
+     position: relative; 
+     /* Making btn relative will be useful to align notification badge */
+}
+
+.badge{
+    background: #333333;
+    border-radius:50%;
+    height: 26px;
+    width: 26px;
+    line-height: 26px;
+    display: inline-block;
+    text-align: center;
+    font-weight: 700;
+
+    position: absolute;
+    /* we are aligning the badge relative to the btn */
+    top: -10px;
+    right: -10px;
+}
+
